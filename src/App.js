@@ -25,7 +25,6 @@ function App() {
           <Route exact path='/' element={ <Main mode={darkMode}/>} />
           <Route exact path='/About' element={ <About /> }/>
           <Route exact path='/Contact' element={ <Contact /> }/>
-          {/* <Route exact path='/Practice' element={ <Practice /> }/> */}
         </Routes>
         <Footer darkMode={darkMode}/>
     </Router>    

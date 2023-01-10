@@ -25,9 +25,6 @@ const Topbar = (props) => {
                     <li className="nav-item">
                     <Link className="nav-link active" to="/Contact">Contact</Link>
                     </li>
-                    {/* <li className="nav-item">
-                    <Link className="nav-link" to="/Practice">Practice</Link>
-                    </li> */}
                 </ul>
                 <label className='darkMode--switch' >
                     <input type="checkbox" onClick={props.mode}/>

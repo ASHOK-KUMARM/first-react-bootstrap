@@ -1,32 +1,32 @@
 
-import React, { useState } from 'react'
-import './App.css'
+// import React, { useState } from 'react'
+// import './App.css'
 
-export default function Practice() {
+// export default function Practice() {
 
-  const [things, setThings] = useState([])
-  const [enterdtxt, setEnteredText] = useState('')
+//   const [things, setThings] = useState([])
+//   const [enterdtxt, setEnteredText] = useState('')
 
-  function addItem() {
-    if (enterdtxt.length >= 1) {
-      setThings(prevthings => [...prevthings, enterdtxt])
-    }
-  }
+//   function addItem() {
+//     if (enterdtxt.length >= 1) {
+//       setThings(prevthings => [...prevthings, enterdtxt])
+//     }
+//   }
 
-  function textChangeHandler (i) {
-    setEnteredText(i.target.value);
-  };
+//   function textChangeHandler (i) {
+//     setEnteredText(i.target.value);
+//   };
 
-  const newThings = things.map(item => <li className='m-4 bg-info w-50 h-25' key={item}>{item}</li>)
+//   const newThings = things.map(item => <li className='m-4 bg-info w-50 h-25' key={item}>{item}</li>)
   
-  return (
-    <div class="d-flex flex-column min-vh-100"  >
-      <input className='form-control m-4 w-50' type='text' onChange={textChangeHandler}/>
-      <button className='btn btn-primary rounded-0 m-4 w-25' onClick={addItem}>Add Item</button>
-      {newThings } 
-    </div>
-  )
-}
+//   return (
+//     <div class="d-flex flex-column min-vh-100"  >
+//       <input className='form-control m-4 w-50' type='text' onChange={textChangeHandler}/>
+//       <button className='btn btn-primary rounded-0 m-4 w-25' onClick={addItem}>Add Item</button>
+//       {newThings } 
+//     </div>
+//   )
+// }
 
 
 
